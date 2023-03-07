@@ -16,9 +16,9 @@ function App() {
     <div className='App'>
       <div></div>
       <h1>ELA PROJECT</h1>
-      <p>Police violence and brutality is bad...</p>
+      <p>Police violence and brutality is very bad...</p>
 
-      <YoutubeEmbed embedId='E0RKl7Q8HSc' />
+      <YoutubeEmbed embedId='4Vl4I0weXPU' />
     </div>
   );
 }
