@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+.Banner {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 5;
+  font-weight: bold;
+  
+  color: rgba(0, 0, 0, 0.87);
+}

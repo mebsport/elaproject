@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
-import reactLogo from './assets/react.svg';
 import './App.css';
+import { WebBanner } from './components/WebBanner';
 import YoutubeEmbed from './components/YoutubeEmbded';
 
 function App() {
@@ -12,8 +12,12 @@ function App() {
     window.addEventListener('contextmenu', eventHandler);
     return () => window.removeEventListener('contextmenu', eventHandler);
   }, []);
+
   return (
     <div className='App'>
+          <div className='Banner'>
+            <WebBanner />
+    </div>
       <div></div>
       <h1>ELA PROJECT</h1>
       <p>Police violence and brutality is very bad...</p>
