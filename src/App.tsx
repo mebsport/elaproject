@@ -6,14 +6,13 @@ import Header from './components/Header';
 import YoutubeEmbed from './components/YoutubeEmbded';
 
 function App() {
-
   // Disable right click
   useEffect(() => {
-    const eventHandler = (e) => e.preventDefault();
-  
-    window.addEventListener("contextmenu", eventHandler)
-    return () => window.removeEventListener("contextmenu", eventHandler)
-  }, [])
+    const eventHandler = (e: MouseEvent) => e.preventDefault();
+
+    window.addEventListener('contextmenu', eventHandler);
+    return () => window.removeEventListener('contextmenu', eventHandler);
+  }, []);
   return (
     <div className='App'>
       <Header />
