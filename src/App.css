@@ -1,50 +1,47 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  overflow: hidden;
+  max-width: 95vw;
   padding: 2rem;
   text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .Banner {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 5;
   font-weight: bold;
-  
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+
   color: rgba(0, 0, 0, 0.87);
+}
+
+.video-responsive {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  /* ^ these values are the container width/height, which the child (iframe) depends on */
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
 }

@@ -15,14 +15,16 @@ function App() {
 
   return (
     <div className='App'>
-          <div className='Banner'>
-            <WebBanner />
-    </div>
+      <div className='Banner'>
+        <WebBanner />
+      </div>
       <div></div>
       <h1>ELA PROJECT</h1>
       <p>Police violence and brutality is very bad...</p>
 
-      <YoutubeEmbed embedId='4Vl4I0weXPU' />
+      <YoutubeEmbed embedId='be2y8A5GKR8' />
+
+      <div className='Pages'></div>
     </div>
   );
 }
