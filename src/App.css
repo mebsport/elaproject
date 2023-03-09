@@ -1,13 +1,14 @@
 #root {
   overflow: hidden;
   max-width: 95vw;
+  min-width: 95vw;
   padding: 2rem;
+  scroll-behavior: smooth;
   text-align: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto;
-  min-width: 95vw;
 }
 
 .App {
