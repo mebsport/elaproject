@@ -7,15 +7,16 @@
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto;
+  min-width: 95vw;
 }
 
-.App {
+/* .App {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+} */
 
-.Banner {
+/* .Banner {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 5;
   font-weight: bold;
@@ -24,24 +25,44 @@
   margin-right: 0;
 
   color: rgba(0, 0, 0, 0.87);
+} */
+
+/* .video-responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 10.25%;
+  overflow: hidden;
+  position: relative;
+  width: 90vw;
+  height: 80vh;
+  } */
+/* ^ these values are the container width/height, which the child (iframe) depends on */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 95vw;
+  padding: 2rem;
+  text-align: center;
 }
 
 .video-responsive {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  /* ^ these values are the container width/height, which the child (iframe) depends on */
+  height: 0;
 }
 
 .video-responsive iframe {
   left: 0;
   top: 0;
+  height: 100%;
+  width: 100%;
   position: absolute;
-  width: 90vw;
-  height: 90vh;
 }

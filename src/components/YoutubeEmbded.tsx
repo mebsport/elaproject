@@ -1,14 +1,14 @@
 import React from 'react';
 
 const YoutubeEmbed = ({ embedId }: { embedId: string }) => (
-  <div className='video-responsive'>
+  <div className="video-responsive">
     <iframe
-      width='853'
-      height='480'
+      width="853"
+      height="480"
       src={`https://www.youtube.com/embed/${embedId}`}
-      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
-      title='Embedded youtube'
+      title="Embedded youtube"
     />
   </div>
 );
