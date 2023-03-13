@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './App.css';
 import { Footer } from './components/Footer';
 import YoutubeEmbed from './components/YoutubeEmbded';
+import Credits from './pages/Credits';
 import MainPage from './pages/MainPage';
 import ResearchQuestion from './pages/ResearchQuestion';
 
@@ -45,6 +46,8 @@ function App() {
       </div>
 
       <YoutubeEmbed embedId='eQ3oZy25O-k' />
+      
+      <Credits/>
 
       <div className='Footer'>
         <Footer
