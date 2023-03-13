@@ -23,6 +23,18 @@ function App() {
         image="https://api.capy.lol/v1/capybara"
       />
 
+      <ResearchQuestion
+        question="what is this?"
+        answerParagraph="owbdosbadibsa saoidbaoidb soibdoabd aodbisbdoia aoisdbosaibdao aoisdbsoixzbaod asidobdwaiuob"
+        image="https://api.capy.lol/v1/capybara"
+      />
+
+      <ResearchQuestion
+        question="what is this?"
+        answerParagraph="owbdosbadibsa saoidbaoidb soibdoabd aodbisbdoia aoisdbosaibdao aoisdbsoixzbaod asidobdwaiuob"
+        image="https://api.capy.lol/v1/capybara"
+      />
+
       <YoutubeEmbed embedId="eQ3oZy25O-k" />
 
       <Footer footerText="so" linkAddress="www.google.com" />

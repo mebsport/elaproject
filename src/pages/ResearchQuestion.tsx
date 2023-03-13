@@ -1,6 +1,17 @@
 import React from "react";
+import styled from "styled-components";
 
-var isEven = false;
+const Container = styled.div`
+  display: flex;
+
+  * {
+    flex: 1;
+  }
+
+  &:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+`;
 
 const ResearchQuestion = ({
   question,
@@ -11,11 +22,11 @@ const ResearchQuestion = ({
   answerParagraph: string;
   image: string;
 }) => (
-  <div>
+  <Container>
     <p>{question}</p>
+    <p>{answerParagraph}</p>
     <img src={image} />
-    {answerParagraph}
-  </div>
+  </Container>
 );
 
 export default ResearchQuestion;
