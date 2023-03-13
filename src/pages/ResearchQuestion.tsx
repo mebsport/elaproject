@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 var isEven = false;
 
@@ -6,19 +6,16 @@ const ResearchQuestion = ({
   question,
   answerParagraph,
   image,
-  even,
 }: {
   question: string;
   answerParagraph: string;
-  image: File;
-  even: boolean;
+  image: string;
 }) => (
-    if(even){
-        return(<div></div>)
-    }
-    else{
-        return(<div></div>)
-    }
+  <div>
+    <p>{question}</p>
+    <img src={image} />
+    {answerParagraph}
+  </div>
 );
 
 export default ResearchQuestion;

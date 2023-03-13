@@ -1,35 +1,28 @@
-import React from "react";
-import {TouchableOpacity, View, Text, Linking} from "react-native";
+import styled from "styled-components";
 
+const Container = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-const Footer = (props: CompProps) => {
-    const {textStyle, viewStyle} = styles;
-
-    return (
-        <View style={viewStyle}>
-            <TouchableOpacity onPress={() => Linking.openURL(props.linkAddress)}>
-                <Text style={textStyle}> { props.footerText}</Text>
-            </TouchableOpacity>
-        </View>
-    );
-};
-
+  > p {
+    font-size: 1.5rem;
+  }
+`;
 
 interface CompProps {
-    footerText: string,
-    linkAddress: string
+  footerText: string;
+  linkAddress: string;
 }
 
-
-const styles = {
-    textStyle: {
-        fontSize: 18
-    },
-    viewStyle: {
-        flex: 1,
-        flexDirection: 'row' as 'row',
-        alignItems: 'center' as 'center',
-        justifyContent: 'center' as 'center'
-    }
-}
-export {Footer};
+export const Footer = (props: CompProps) => {
+  return (
+    <Container>
+      <a href="https://looskie.com">
+        <p> {props.footerText}</p>
+      </a>
+    </Container>
+  );
+};
