@@ -46,17 +46,34 @@ function App() {
       </div>
 
       <YoutubeEmbed embedId='eQ3oZy25O-k' />
-      
-      <Credits/>
+
+      <Credits />
 
       <div className='Footer'>
         <Footer
           footerText='Source Code'
           linkAddress='https://github.com/mebsport/elaproject'
+          icon='./src/assets/github_icon.svg'
         />
         <Footer
           footerText='Visit My Site'
           linkAddress='https://marcelusbrown.com'
+          icon='./src/assets/website_icon.svg'
+        />
+<Footer
+          footerText='Twitter'
+          linkAddress='https://twitter.com/marcelusebrown'
+          icon='./src/assets/twitter logo_icon.svg'
+        />
+                <Footer
+          footerText='Instagram'
+          linkAddress='https://instagram.com/mebsport'
+          icon='./src/assets/instagram logo_icon.svg'
+        />
+                   <Footer
+          footerText='Youtube'
+          linkAddress='https://www.youtube.com/@marcelusbrown6957'
+          icon='./src/assets/youtube logo_icon.svg'
         />
       </div>
     </div>
