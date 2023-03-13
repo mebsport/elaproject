@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import './App.css';
+import { Footer } from './components/Footer';
 import { WebBanner } from './components/WebBanner';
 import YoutubeEmbed from './components/YoutubeEmbded';
 import MainPage from './pages/MainPage';
+import ResearchQuestion from './pages/ResearchQuestion';
+import Footer from './components/Footer';
 
 function App() {
   // Disable right click
@@ -16,13 +19,17 @@ function App() {
 
   return (
     <div className='App'>
-      <MainPage/>
-      <p>Police violence and brutality is very bad...</p>
+      <MainPage />
+      <ResearchQuestion
+        question='what is this?'
+        answerParagraph='owbdosbadibsa saoidbaoidb soibdoabd aodbisbdoia aoisdbosaibdao aoisdbsoixzbaod asidobdwaiuob'
+        image={}
+        even={false}
+      />
 
       <YoutubeEmbed embedId='eQ3oZy25O-k' />
 
-      <div className='Pages'>
-      </div>
+      <Footer footerText='so' linkAddress='www.google.com' />
     </div>
   );
 }

@@ -30,6 +30,7 @@
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
+  padding-top: 15vw;
 }
 
 .video-responsive iframe {
@@ -42,6 +43,12 @@
 
 .Thesis {
   align-self: center;
-  padding-top: 25%;
-  padding-bottom: 25%;
+  padding-top: 25vw;
 }
+
+.ResearchQuestion {
+  padding-top: 25vw;
+  display: flex;
+  flex-direction: row;
+}
+
