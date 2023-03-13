@@ -2,7 +2,6 @@
   overflow: hidden;
   max-width: 95vw;
   min-width: 95vw;
-  padding: 2rem;
   scroll-behavior: smooth;
   text-align: center;
   align-items: center;
@@ -19,8 +18,11 @@
   margin: 0 auto;
   overflow: hidden;
   max-width: 95vw;
-  padding: 2rem;
   text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-top: none;
 }
 
 .video-responsive {
@@ -36,4 +38,10 @@
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.Thesis {
+  align-self: center;
+  padding-top: 25%;
+  padding-bottom: 25%;
 }

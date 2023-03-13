@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import './App.css';
 import { WebBanner } from './components/WebBanner';
 import YoutubeEmbed from './components/YoutubeEmbded';
+import MainPage from './pages/MainPage';
 
 function App() {
   // Disable right click
@@ -15,12 +16,13 @@ function App() {
 
   return (
     <div className='App'>
-      <h1>Marclus amazing reserch</h1>
+      <MainPage/>
       <p>Police violence and brutality is very bad...</p>
 
       <YoutubeEmbed embedId='eQ3oZy25O-k' />
 
-      <div className='Pages'></div>
+      <div className='Pages'>
+      </div>
     </div>
   );
 }
