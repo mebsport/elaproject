@@ -53,27 +53,27 @@ function App() {
         <Footer
           footerText='Source Code'
           linkAddress='https://github.com/mebsport/elaproject'
-          icon='./src/assets/github_icon.svg'
+          icon='./assets/github_icon.svg'
         />
         <Footer
           footerText='Visit My Site'
           linkAddress='https://marcelusbrown.com'
-          icon='./src/assets/website_icon.svg'
+          icon='./assets/website_icon.svg'
         />
-<Footer
+        <Footer
           footerText='Twitter'
           linkAddress='https://twitter.com/marcelusebrown'
-          icon='./src/assets/twitter logo_icon.svg'
+          icon='./assets/twitter logo_icon.svg'
         />
-                <Footer
+        <Footer
           footerText='Instagram'
           linkAddress='https://instagram.com/mebsport'
-          icon='./src/assets/instagram logo_icon.svg'
+          icon='./assets/instagram logo_icon.svg'
         />
-                   <Footer
+        <Footer
           footerText='Youtube'
           linkAddress='https://www.youtube.com/@marcelusbrown6957'
-          icon='./src/assets/youtube logo_icon.svg'
+          icon='./assets/youtube logo_icon.svg'
         />
       </div>
     </div>
