@@ -30,7 +30,6 @@
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
-  padding-top: 15vw;
 }
 
 .video-responsive iframe {
@@ -46,9 +45,12 @@
   padding-top: 25vw;
 }
 
-.ResearchQuestion {
+.Pages {
   padding-top: 25vw;
+  padding-bottom: 5vw;
+}
+
+.Footer{
   display: flex;
   flex-direction: row;
 }
-

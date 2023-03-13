@@ -20,7 +20,7 @@ interface CompProps {
 export const Footer = (props: CompProps) => {
   return (
     <Container>
-      <a href="https://looskie.com">
+      <a href={props.linkAddress}>
         <p> {props.footerText}</p>
       </a>
     </Container>
