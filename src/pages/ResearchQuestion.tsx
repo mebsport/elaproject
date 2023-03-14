@@ -29,6 +29,8 @@ const Container = styled.div`
 
 const Photo = styled.img`
   max-width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
 `;
 
 const ResearchQuestion = ({
