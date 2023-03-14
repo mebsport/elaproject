@@ -5,6 +5,7 @@ import YoutubeEmbed from './components/YoutubeEmbded';
 import Credits from './pages/Credits';
 import MainPage from './pages/MainPage';
 import ResearchQuestion from './pages/ResearchQuestion';
+import styled from 'styled-components'; 
 
 function App() {
   // Disable right click
