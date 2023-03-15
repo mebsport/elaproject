@@ -16,7 +16,6 @@ function App() {
     return () => window.removeEventListener('contextmenu', eventHandler);
   }, []);
 
-
   //Main Page
   return (
     <div className='App'>
