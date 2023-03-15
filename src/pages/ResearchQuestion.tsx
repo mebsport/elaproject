@@ -21,7 +21,7 @@ const Container = styled.div`
 
   .Text {
     align-self: center;
-    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
   }
 
   .Question {

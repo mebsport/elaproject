@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ThesisStatement = styled.span`
-  font-family: monospace;
+  font-family: 'Nunito', sans-serif;
   color: #0000;
   background: linear-gradient(-90deg, #ffffff 5px, #0000 0) 10px 0,
     linear-gradient(#ffffff 0 0) 0 0;
@@ -25,6 +25,7 @@ const ThesisStatement = styled.span`
     }
   }
 `;
+
 function MainPage() {
   return (
     <div className='Thesis'>

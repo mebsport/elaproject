@@ -28,7 +28,7 @@ const Link = styled.div`
 `;
 
 const Site = styled.p`
-  font-family: Oswald;
+  font-family: 'Nunito', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-variant: normal;
