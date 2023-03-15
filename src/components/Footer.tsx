@@ -27,6 +27,15 @@ const Link = styled.div`
   }
 `;
 
+const Site = styled.p`
+  font-family: Oswald;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+`;
+
 interface CompProps {
   footerText: string;
   linkAddress: string;
@@ -39,7 +48,7 @@ export const Footer = (props: CompProps) => {
       <a href={props.linkAddress}>
         <Link>
           <Icon src={props.icon} />
-          <p> {props.footerText}</p>
+          <Site> {props.footerText}</Site>
         </Link>
       </a>
     </Container>
