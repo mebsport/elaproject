@@ -20,6 +20,11 @@ const Icon = styled.img`
 const Link = styled.div`
   display: flex;
   flex-direction: row;
+
+  :hover {
+    zoom: 120%;
+    transition: zoom 0.5s;
+  }
 `;
 
 interface CompProps {
