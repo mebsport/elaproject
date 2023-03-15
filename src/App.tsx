@@ -20,7 +20,7 @@ function App() {
   //Main Page
   return (
     <div className='App'>
-      <MainPage />
+      <MainPage /> 
 
       <div className='Pages'>
         <ResearchQuestion
@@ -47,8 +47,6 @@ function App() {
           image='https://media.cnn.com/api/v1/images/stellar/prod/200623135338-juneteenth-george-floyd-protesters-restricted.jpg?q=w_1600,h_1067,x_0,y_0,c_fill'
         />
       </div>
-
-      <YoutubeEmbed embedId='eQ3oZy25O-k' />
 
       <Credits />
 
