@@ -5,7 +5,7 @@ import YoutubeEmbed from './components/YoutubeEmbded';
 import Credits from './pages/Credits';
 import MainPage from './pages/MainPage';
 import ResearchQuestion from './pages/ResearchQuestion';
-import styled from 'styled-components'; 
+import styled from 'styled-components';
 
 function App() {
   // Disable right click
@@ -19,18 +19,19 @@ function App() {
   //Main Page
   return (
     <div className='App'>
-      <MainPage /> 
+      <MainPage />
 
       <div className='Pages'>
         <ResearchQuestion
           question='How does police brutality affect the minds of the youth in the United States?'
-          answerParagraph='[PUT ANSWER HERE]'
+          answerParagraph='“No government-funded programs exist to provide mental health support for the victims of police brutality and the family members of those affected”(Howard University School of Law) Right now there are no programs to support the youth through racially provoked and discriminatory incidents that use excessive force. Police brutality causes stress and has been seen to lead to depression in the youth and it also builds distrust for the institution that was built to “Protect and Serve” “experiencing higher levels of racial discrimination and endorsing higher public regard beliefs was associated with higher depressive symptomatology and psychological distress among African American adolescents” (International journal of environmental research and public health). The black youth already continually face mental challenges on a day-to-day basis, from being discriminated against, to being racially profiled by different members of the community. “The compounding effect of police abuse only further exacerbates health and mental health challenges” (International journal of environmental research and public health). With the addition of police brutality, only heightens the mental challenges going on in the youth and adds unneeded stress.
+          '
           image='https://api.wbez.org/v2/images/0356fcfa-131b-4e4d-98a8-429079a68596.jpg?width=1600&height=0&mode=ASPECT_WIDTH'
         />
 
         <ResearchQuestion
           question='What are some causes for police brutality? What leads to it, is it their training, being under trained, etc. why does it happen?'
-          answerParagraph='[PUT ANSWER HERE]'
+          answerParagraph=''
           image='https://i2.wp.com/hechingerreport.org/wp-content/uploads/2020/06/preston-police-education-3.jpg?fit=2000%2C1312'
         />
 
