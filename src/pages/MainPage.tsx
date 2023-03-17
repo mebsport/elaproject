@@ -6,12 +6,12 @@ const ThesisStatement = styled.span`
   color: #0000;
   background: linear-gradient(-90deg, #ffffff 5px, #0000 0) 10px 0,
     linear-gradient(#ffffff 0 0) 0 0;
-  background-size: calc(29 * 1ch) 200%;
+  background-size: calc(443 * 1ch) 200%;
   -webkit-background-clip: padding-box, text;
   background-clip: padding-box, text;
   background-repeat: no-repeat;
-  animation: b 0.7s infinite steps(1), t calc(29 * 0.1s) steps(29) forwards;
-  font-size: 4em;
+  animation: b 0.4s infinite steps(1), t calc(443 * 0.05s) steps(443) forwards;
+  font-size: 2.5em;
   font-weight: 600;
 
   @keyframes t {
@@ -29,7 +29,15 @@ const ThesisStatement = styled.span`
 function MainPage() {
   return (
     <div className='Thesis'>
-      <ThesisStatement>[Insert Thesis Statemnt Here]</ThesisStatement>
+      <ThesisStatement>
+        Police brutality results from multiple factors such as inadequate
+        training, job stress, and insufficient regulations. Incidents of police
+        brutality have led to a loss of trust in the police among the youth.
+        Recent events like the killing of George Floyd have made the public
+        uprise and rally for a change, this prompted government action,
+        resulting in the implementation of new laws and regulations to end
+        excessive use of force by the police.
+      </ThesisStatement>
     </div>
   );
 }

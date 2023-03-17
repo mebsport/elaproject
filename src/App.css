@@ -41,8 +41,8 @@
 }
 
 .Thesis {
+  padding-top: 10%;
   align-self: center;
-  padding-top: 25vw;
 }
 
 .Pages {
@@ -50,7 +50,7 @@
   padding-bottom: 5vw;
 }
 
-.Footer{
+.Footer {
   display: flex;
   flex-direction: row;
   min-height: 100px;
