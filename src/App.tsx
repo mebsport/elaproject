@@ -31,19 +31,19 @@ function App() {
 
         <ResearchQuestion
           question='What are some causes for police brutality? What leads to it, is it their training, being under trained, etc. why does it happen?'
-          answerParagraph=''
+          answerParagraph="“Innocent, unarmed civilians are losing lives because of the lack of training in de-escalation process”(Gutierrez). Unarmed citizens are being killed due to a lack of training and the use of excessive force in the police department. “Currently, training focuses too much on firearm skills and omits vital exposure to non-lethal weapons and conflict management.”(Gutierrez). Police training focuses its time on firearm training and skills instead of focusing on trying to calm down a situation and resolve it peacefully. This combined with the stress of the job can lead to mistakes and end up harming civilians. “there is often a combination of factors including inadequate laws, racial or other forms of discrimination, insecurity or conflict, and entrenched impunity” (Amnesty International). There are many other reasons that excessive force is used in police encounters. Some of it stems from systematic racism. That combined with a need to abuse power because of one's insecurity or personal agenda can put people in danger. “Instead of viewing police officers as guardians of a community, the rhetoric around the police often revolves around a warrior image”(Gutierrez) Police are here to protect us but generally, the image surrounding them is a warrior image instead of a guardian which can lead to misinterpretation of their job."
           image='https://i2.wp.com/hechingerreport.org/wp-content/uploads/2020/06/preston-police-education-3.jpg?fit=2000%2C1312'
         />
 
         <ResearchQuestion
           question='What changes are being made to amend it or fix it, and which efforts have been successful and why?'
-          answerParagraph='[PUT ANSWER HERE]'
+          answerParagraph=''
           image='https://static01.nyt.com/images/2018/06/06/nyregion/00bias-01/merlin_137575770_9bc147c2-faff-433b-83f8-2b6c44293b67-superJumbo.jpg'
         />
 
         <ResearchQuestion
           question='What has been the influence of the public opinion after events such as the George Floyd killing and subsequent uprisings in recent years on the police mindset, training and deescalation?'
-          answerParagraph='[PUT ANSWER HERE]'
+          answerParagraph=''
           image='https://media.cnn.com/api/v1/images/stellar/prod/200623135338-juneteenth-george-floyd-protesters-restricted.jpg?q=w_1600,h_1067,x_0,y_0,c_fill'
         />
       </div>
