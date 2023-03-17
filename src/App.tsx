@@ -9,12 +9,12 @@ import styled from 'styled-components';
 
 function App() {
   // Disable right click
-  useEffect(() => {
-    const eventHandler = (e: MouseEvent) => e.preventDefault();
+  // useEffect(() => {
+  //   const eventHandler = (e: MouseEvent) => e.preventDefault();
 
-    window.addEventListener('contextmenu', eventHandler);
-    return () => window.removeEventListener('contextmenu', eventHandler);
-  }, []);
+  //   window.addEventListener('contextmenu', eventHandler);
+  //   return () => window.removeEventListener('contextmenu', eventHandler);
+  // }, []);
 
   //Main Page
   return (
