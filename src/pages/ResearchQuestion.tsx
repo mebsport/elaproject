@@ -3,21 +3,24 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex;
+  flex: 1;
+  padding-top: 5%;
+  flex-direction: column-reverse !important;
 
-  @media screen and (orientation: landscape) {
+  /* @media screen and (orientation: landscape) {
     flex: 1;
     padding-top: 5%;
   }
 
   &:nth-child(odd) {
     flex-direction: row-reverse;
-  }
+  } */
 
-  @media screen and (orientation: portrait) {
+  /* @media screen and (orientation: portrait) {
     flex: 1;
     padding-top: 5%;
     flex-direction: column-reverse !important;
-  }
+  } */
 
   .Text {
     align-self: center;
@@ -25,18 +28,19 @@ const Container = styled.div`
   }
 
   .Question {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .Answer {
-    font-size: 15px;
+    font-size: 20px;
   }
 `;
 
 const Photo = styled.img`
-  max-width: 50%;
+  max-width: 90%;
   padding-left: 10px;
   padding-right: 10px;
+  align-self: center;
 
   @media screen and (orientation: portrait) {
     max-width: 85% !important;
